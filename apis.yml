@@ -1,8 +1,29 @@
 aid: hungryroot
 name: Hungryroot
-description: Hungryroot is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Hungryroot is a personalized grocery and meal-planning service that blends
+  meal-kit convenience with grocery-store variety. Its AI-driven personalization
+  engine builds each customer's cart from dietary preferences, health goals, and
+  budget, drawing on a catalog of 50,000+ recipes and curated grocery products
+  that support high-protein, gluten-free, vegan, and other dietary needs.
+  Hungryroot is a direct-to-consumer company backed by Lightspeed Venture
+  Partners; it operates a consumer web and mobile app experience rather than a
+  public developer platform. This profile was surfaced through the venture
+  portfolio graph and enriched by the API Evangelist pipeline, which probed the
+  provider's domain and public discovery surfaces (no public API, OpenAPI, SDKs,
+  well-known catalog, security.txt, or llms.txt were found as of this pass).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hungryroot.com/public/img/favicons/favicon-192.png
 url: https://raw.githubusercontent.com/api-evangelist/hungryroot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Grocery
+- Meal Kit
+- Food Delivery
+- Direct to Consumer
+- Personalization
+- E-commerce
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hungryroot-domain-security.yml
+- type: Website
+  url: https://www.hungryroot.com/
+- type: Blog
+  url: https://www.hungryroot.com/blog
+- type: Support
+  url: https://support.hungryroot.com/hc/en-us
+- type: LLMsTxt
+  url: llms/hungryroot-llms.txt
+- type: TermsOfService
+  url: https://www.hungryroot.com/terms/
+- type: PrivacyPolicy
+  url: https://www.hungryroot.com/privacy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
