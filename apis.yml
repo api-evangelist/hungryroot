@@ -12,6 +12,17 @@ description: >-
   portfolio graph and enriched by the API Evangelist pipeline, which probed the
   provider's domain and public discovery surfaces (no public API, OpenAPI, SDKs,
   well-known catalog, security.txt, or llms.txt were found as of this pass).
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
